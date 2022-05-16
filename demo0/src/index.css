@@ -4,6 +4,7 @@
 }
 
 body {
+  /* 这里 postcss 会加一句  “background: #547119;” 来兼容低版本浏览器 */
   background: var(--ydBgColor);
 }
 
