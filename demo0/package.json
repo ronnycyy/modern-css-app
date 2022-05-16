@@ -2,9 +2,9 @@
   "name": "demo0",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "css-doodle.min.js",
   "scripts": {
-    "dev": "webpack --mode development"
+    "start": "node_modules/.bin/webpack --mode development"
   },
   "keywords": [],
   "author": "",
