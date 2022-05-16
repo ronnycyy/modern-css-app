@@ -11,13 +11,17 @@ module.exports = {
       {
         test: /\.css$/i,
         use: [
+          // <style></style> 或者 <link ref="stylesheets" src="...." />
           'style-loader',
+          // 处理 css 代码
           {
             loader: 'css-loader',
             options: {
+              // CSS Module
               modules: true,
             },
           },
+          // 支持 css-next
           'postcss-loader',
         ],
       },

@@ -4,7 +4,7 @@
   "description": "",
   "main": "css-doodle.min.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack --mode development"
+    "build": "node_modules/.bin/webpack --mode development"
   },
   "keywords": [],
   "author": "",

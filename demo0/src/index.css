@@ -1,14 +1,15 @@
 :root {
-  --ydColor: black;
+  --ydBgColor: #547119;
+  --ydColor: #2196f3;
 }
 
 body {
-  background: var(--ydColor);
+  background: var(--ydBgColor);
 }
 
 .test {
   & h1 {
-    color: yellowgreen;
+    color: var(--ydColor);
   }
 }
 
